@@ -17,6 +17,7 @@ cursor = connection.cursor()<br>
 z = f"DELETE FROM T_Documents'"<br>
 cursor.execute(z)<br>
 connection.commit()<br>
+connection.close()
 <br>
 Я не ML, я только учусь<br>
    
